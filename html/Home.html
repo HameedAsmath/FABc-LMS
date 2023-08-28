@@ -13,17 +13,12 @@
     />
     <link rel="stylesheet" href="../css/Home.css" />
     <script src="../js/carousel.js"></script>
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script type="module">
-      import Swiper from "https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.mjs";
-
-      const swiper = new Swiper();
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> -->
 
     <script>
       tailwind.config = {
@@ -422,7 +417,7 @@
           </div>
 
           <div class="sec-5 sec5-right flex-1">
-            <h1 class="font-bold text-4xl">
+            <h1 class="font-bold text-4xl mt-6 md:mt-0">
               THE IDEAL <span class="text-FABcBlue">SOLUTION</span><br />
               FOR YOUR BUSINESS
             </h1>
@@ -441,7 +436,7 @@
               accusantium, voluptatem ut debitis ab dolores ipsum soluta hic ea
               unde minus asperiores perferendis molestias perspiciatis!
             </p>
-            <div class="btn-container mt-12">
+            <div class="btn-container mt-12 flex items-center">
               <button class="rounded-md px-20 py-3 bg-FABcBlue text-white">
                 Discover FABC For Business
               </button>
@@ -454,8 +449,8 @@
           </div>
         </div>
 
-        <div class="stats-container flex mt-12 justify-between items-center">
-          <div class="stats flex">
+        <div class="stats-container flex mt-12 justify-between items-center flex-wrap">
+          <div class="stats flex mt-6 md:mt-0">
             <button class="p-3 px-6 bg-green-50 rounded-md text-green-500">
               <i class="fa-solid fa-graduation-cap"></i>
             </button>
@@ -465,7 +460,7 @@
             </div>
           </div>
 
-          <div class="stats flex">
+          <div class="stats flex mt-6 md:mt-0">
             <button class="p-3 px-6 bg-yellow-50 rounded-md text-yellow-500">
               <i class="fa-solid fa-video"></i>
             </button>
@@ -475,7 +470,7 @@
             </div>
           </div>
 
-          <div class="stats flex">
+          <div class="stats flex mt-6 md:mt-0">
             <button class="p-3 px-6 bg-blue-50 rounded-md text-blue-500">
               <i class="fa-solid fa-users"></i>
             </button>
@@ -485,7 +480,7 @@
             </div>
           </div>
 
-          <div class="stats flex">
+          <div class="stats flex mt-6 md:mt-0">
             <button class="p-3 px-6 bg-pink-50 rounded-md text-pink-500">
               <i class="fa-solid fa-graduation-cap"></i>
             </button>
@@ -495,25 +490,36 @@
             </div>
           </div>
         </div>
-        <!-- Slider main container -->
-        <div class="swiper">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper text-black">
-            <!-- Slides -->
-            <div class="swiper-slide">Slide 1</div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
-            ...
+
+      </div>
+
+      <div class="sec-6 p-8 md:px-24 bg-FABcLightBlue">
+        <h1 class="font-bold text-3xl mb-12 text-center md:text-left">FEEDBACKS FROM THE <span class="text-FABcBlue">COMMUNITY</span></h1>
+        <h1 class="font-bold ">Master web3 technology with our comprehensive blockchain courses for the next generation of innovators.</h1>
+      </div>
+
+      <div class="sec-7 p-8 md:px-24 bg-white">
+        <h1 class="font-bold text-3xl mb-12 text-center md:text-left">LATEST<span class="text-FABcBlue">NEWS</span></h1>
+        <h1 class="font-bold ">FABC's Global alliance connects visionaries in blockchain, crypto and digital transforamtion.</h1>
+      </div>
+
+      <div class="sec-8 text-white ">
+        <div class="bg-FABcBlue py-12 text-center font-bold text-3xl">
+          <h1>YOUR FUTURE IN WEB3 BEGINS HERE.</h1>
+          <h1>REACH OUT <span class="text-FABcYellow">NOW</span></h1>
+        </div>
+        <div class="contactUs-container p-8 md:px-24 md:flex items-center justify-center gap-40">
+          <div class="form p-12 bg-FABcLightBlue rounded-lg text-FABcGray md:w-4/12">
+            <h1 class="font-bold text-black text-2xl">Get in touch with us!</h1>
+            <p class="font-normal my-8">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus beatae consectetur asperiores eius debitis molestias iure aut repudiandae, eligendi ea, obcaecati illo eos et itaque.</p>
+            <input type="text" placeholder="Name" class="bg-transparent outline-0 border-0 border-b-2 p-3 border-FABcBlue w-[100%]">
+            <input type="email" placeholder="Email" class="bg-transparent outline-0 border-0 border-b-2 p-3 border-FABcBlue w-[100%] mt-14">
+            <textarea name="Text1" cols="40" rows="5" class="bg-transparent outline-0 border-0 border-b-2 p-3 border-FABcBlue w-[100%] mt-14" placeholder="Message"></textarea>
+            <button class="w-[100%] text-white bg-FABcBlue rounded-lg py-3 mt-14">Send</button>
           </div>
-          <!-- If we need pagination -->
-          <div class="swiper-pagination"></div>
-
-          <!-- If we need navigation buttons -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-
-          <!-- If we need scrollbar -->
-          <div class="swiper-scrollbar"></div>
+          <div class="md:w-4/12 mt-6 md:mt-0">
+            <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/1998571/cryptocurrency-svg-clipart-xl.png" alt="..." class="w-[100%]">
+          </div>
         </div>
       </div>
     </div>
