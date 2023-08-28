@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/Footer.css" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              FABcYellow: "#FFBA00",
+              FABcBlue: "#0087A5",
+              FABcGray: "#6F6666",
+              FABcLightBlue: "#E6F4F6",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Document</title>
+  </head>
+  <body>
+    <footer class="text-FABcGray leading-loose">
+      <div
+        class="md:flex items-start justify-between px-2 md:px-24 py-12 flex-1 gap-8 text-center md:text-left"
+      >
+        <div class="sec-1 flex-1 pr-8 mt-4 md:mt-0">
+          <img
+            src="../assets/Screenshot_20230826_154448_Samsung_Notes-removebg-preview.png"
+            alt="logo"
+            class="w-60 mx-auto md:mx-0"
+          />
+          <h2 class="font-bold text-black text-2xl">Contact Us</h2>
+          <p class="my-2">Cal +123 400 123</p>
+          <p>
+            Contact us today for your free discovery call with one of our
+            leading experts
+          </p>
+          <h4 class="font-semibold">Email: example@gmail.com</h4>
+          <div class="flex mt-2 items-center justify-center md:items-start md:justify-start">
+            <button>
+              <div class="bg-FABcLightBlue p-2 px-4 rounded-md">
+                <i
+                  class="fa-brands fa-facebook-f "
+                  style="color: #0087a5"
+                ></i>
+              </div>
+            </button>
+
+            <button>
+              <div class="bg-FABcLightBlue p-2 px-4 rounded-md mx-3">
+                <i
+                  class="fa-brands fa-linkedin-in fa-lg"
+                  style="color: #0087a5"
+                ></i>
+              </div>
+            </button>
+            <button>
+              <div class="bg-FABcLightBlue p-2 px-4 rounded-md">
+                <i
+                  class="fa-brands fa-instagram fa-lg"
+                  style="color: #0087a5"
+                ></i>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="sec-2 flex-1 mt-8 md:mt-0">
+          <h2 class="font-bold text-black text-2xl mb-8">Explore</h2>
+          <p>Home</p>
+          <p>About</p>
+          <p>Course</p>
+          <p>Blog</p>
+          <p>Contact</p>
+        </div>
+        <div class="sec-3 flex-1 mt-8 md:mt-0">
+          <h2 class="font-bold text-black text-2xl mb-8">Category</h2>
+          <p>Design</p>
+          <p>Development</p>
+          <p>Marketing</p>
+          <p>Business</p>
+          <p>Lifestyle</p>
+          <p>Photography</p>
+          <p>Music</p>
+        </div>
+        <div class="sec-4 flex-1 mt-8 md:mt-0">
+          <h4 class="font-bold text-black text-2xl mb-8">Subscribe</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus sit non id neque itaque tempora.
+          </p>
+          <div class="flex flex-col">
+            <input
+              type="email"
+              class="p-1 outline-none bg-slate-100 rounded-sm my-4 px-4"
+              placeholder="Email here"
+            />
+            <button class="bg-FABcBlue text-white px-12 py-1 rounded-md">
+              Sunscribe Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="bg-FABCLightBlue flex items-center justify-between py-2 px-8 bg-FABcLightBlue text-sm">
+        <p>Privacy Policy | Terms & Conditions</p>
+        <p>
+          COPYRIGHT
+          <i class="fa-regular fa-copyright" style="color: #333333"></i> 2023
+          FABC
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
